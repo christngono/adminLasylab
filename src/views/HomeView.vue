@@ -1,0 +1,61 @@
+<script setup>
+import navigation from "../components/navigation.vue"
+import salutation from "../components/salutation.vue"
+import proposition from "../components/proposition.vue"
+import Formulation from "../components/Formulation.vue"
+import tableau from "../components/tableau.vue"
+import lasylab from "../components/lasylab.vue"
+</script>
+
+<template>
+  <navigation lasylab="public/Fichier 4logo-lasylab 1.png"
+              txt1="ADMINISTRATION"  action="ajouter un cours" link="/edit" />
+  <salutation txt="Bienvenue sur l'administration de lasylab" />
+  <proposition txt="Classes"
+               txt1="Matières"
+               text2="Types contenus"
+               clas1="6eme"
+               clas2="5eme"
+               clas3="4eme"
+               clas4="3eme"
+               clas5="2nde"
+               clas6="1ere"
+               clas7="Tle"
+               mat1="mathématiques"
+               mat2="français"
+               mat3="SVTEEHB"
+               mat4="anglais"
+               mat5="ECM"
+               mat6="histoire"
+               mat7="géographie" />
+  <Formulation text="(07) cours" />
+  <tableau text1="Nombre"
+           text2="Titre de la leçon"
+           text3="Objectif de la leçon"
+           text4="Matières"
+           text5="Classes"
+           text6="Contenus"
+           text7="Actions"
+           nbre1="1"
+           nbre2="2"
+           nbre3="3"
+           nbre4="4"
+           nbre5="5"
+           nbre6="6"
+           nbre7="7"
+           txt1="Editer"
+           txt2="Supprimer"
+           txt3="Editer"
+           txt4="Supprimer"
+           txt5="Editer"
+           txt6="Supprimer"
+           txt7="Editer"
+           txt8="Supprimer"
+           txt9="Editer"
+           txt10="Supprimer"
+           txt11="Editer"
+           txt12="Supprimer"
+           txt13="Editer"
+           txt14="Supprimer" />
+  <lasylab title="@lasylab 2023" />
+</template>
