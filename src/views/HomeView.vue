@@ -10,7 +10,8 @@ import lasylab from "../components/lasylab.vue"
 <template>
   <navigation lasylab="public/Fichier 4logo-lasylab 1.png"
               txt1="ADMINISTRATION"  action="ajouter un cours" link="/edit" />
-  <salutation txt="Bienvenue sur l'administration de lasylab" />
+  <salutation txt="welcom to new panel administration" />
+  <p>Bonjour à tous nous sommes là</p>
   <proposition txt="Classes"
                txt1="Matières"
                text2="Types contenus"
